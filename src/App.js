@@ -4,6 +4,7 @@ import Register from './pages/Register';
 import Login from './pages/Login';
 import Home from './pages/Home';
 import Navbar from './pages/Navbar';
+import Category1 from './pages/Category1';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
@@ -17,6 +18,7 @@ function App() {
           <Route path="/wh-blog" element={<Navbar><Home/></Navbar>}></Route>
           <Route path="/register" element={<Register />}></Route>
           <Route path="/login" element={<Login />}></Route>
+          <Route path="/category1" element={<Navbar><Category1/></Navbar>}></Route>
         </Routes>
      </BrowserRouter>
     </div>

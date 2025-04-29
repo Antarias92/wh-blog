@@ -1,6 +1,7 @@
 *{
   padding: 0px;
   margin: 0px;
+  
 }
 
 body{
@@ -13,7 +14,6 @@ body{
   align-items: center;
   justify-content: center;
   height: 100vh;
-  
 }
 
 .loginForm{
@@ -46,3 +46,4 @@ body{
   text-align: center;
   color: red;
 }
+

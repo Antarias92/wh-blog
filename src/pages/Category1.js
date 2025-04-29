@@ -1,18 +1,17 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./Home.css";
 
-const Home = ({children}) => {
+const Category1 = ({children}) => {
     return (
         <div className="row vertNav">
             <div className="col-3">
                 <nav className ="navbar bg-dark">
                     <ul className ="nav navbar-nav mx-auto">
                         <li className ="nav-item">
-                            <Link style={{color: "#ebb866"}} className="nav-link" to="/Category1"> Category1 </Link>
+                            <a className ="nav-link text-white navbar-brand h1" href="#"> Category 1 </a>
                         </li>
                         <li className ="nav-item">
-                            <a className ="nav-link text-white navbar-brand h1" href="#"> Category 2 </a>
+                            <a className ="nav-link text-white" href="#"> Category 2 </a>
                         </li>
                         <li className ="nav-item">
                             <a className ="nav-link text-white" href="#"> Category 3 </a>
@@ -28,7 +27,7 @@ const Home = ({children}) => {
                     The Web Content in detail.
                 </div>
                 <div className ="container">
-                    <p> The vertical menu can place the left or right side of the web pages. But the default vertical menu placed on the left side. </p>
+                    <p> The vertical menu can place the left  </p>
                 </div>
             </div>
         </div>
@@ -36,4 +35,4 @@ const Home = ({children}) => {
     )    
 }
 
-export default Home;
+export default Category1;

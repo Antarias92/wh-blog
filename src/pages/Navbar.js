@@ -19,7 +19,7 @@ const Navbar = ({children}) => {
                                <Link style={{color: "#ebb866"}} className="nav-link" to="/add"> Add Item </Link>
                            </li>
                            <li className="nav-item menu-item">
-                               <Link style={{color: "#ebb866"}} className="nav-link" to="/Contact"> Contact </Link>
+                               <Link style={{color: "#ebb866"}} className="nav-link" to="/"> Logout </Link>
                            </li>
                        </ul>
                    </div>
