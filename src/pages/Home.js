@@ -8,7 +8,7 @@ const Home = ({children}) => {
                 <nav className ="navbar bg-dark">
                     <ul className ="nav navbar-nav mx-auto">
                         <li className ="nav-item">
-                            <Link style={{color: "#ebb866"}} className="nav-link" to="/Category1"> Category1 </Link>
+                            <Link style={{color: "#ebb866"}} className="nav-link navbar-brand h1" to="/Category1"> Category1 </Link>
                         </li>
                         <li className ="nav-item">
                             <a className ="nav-link text-white navbar-brand h1" href="#"> Category 2 </a>
@@ -27,7 +27,7 @@ const Home = ({children}) => {
                     The Web Content in detail.
                 </div>
                 <div className ="container">
-                    <p> The vertical menu can place the left or right side of the web pages. But the default vertical menu placed on the left side. </p>
+                    <p>Welcome to the Warhammer Database. </p>
                 </div>
             </div>
         </div>

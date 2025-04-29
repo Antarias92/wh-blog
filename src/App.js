@@ -5,9 +5,12 @@ import Login from './pages/Login';
 import Home from './pages/Home';
 import Navbar from './pages/Navbar';
 import Category1 from './pages/Category1';
+import AddItem from './pages/AddItem';
+import Banner from './pages/Banner';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+
 
 function App() {
 
@@ -16,9 +19,10 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/wh-blog" element={<Navbar><Home/></Navbar>}></Route>
-          <Route path="/register" element={<Register />}></Route>
-          <Route path="/login" element={<Login />}></Route>
+          <Route path="/register" element={<Banner><Register/></Banner>}></Route>
+          <Route path="/login" element={<Banner><Login/></Banner>}></Route>
           <Route path="/category1" element={<Navbar><Category1/></Navbar>}></Route>
+          <Route path="/additem" element={<Navbar><AddItem/></Navbar>}></Route>
         </Routes>
      </BrowserRouter>
     </div>
