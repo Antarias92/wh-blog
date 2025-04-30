@@ -7,7 +7,6 @@ const Lore = ({children}) => {
     const [posts, setPosts] = useState([])
 
     const cat = useLocation().search;
-   
 
     useEffect(() =>{
         const fetchData = async ()=>{
@@ -47,8 +46,8 @@ const Lore = ({children}) => {
                         <div className="post" key={posts.id}>
                             <div className="content">
                                 
-                                    <h2>{posts.title}</h2>
-                                
+                                <h2>{posts.title}</h2>
+                                <p>{posts.cat}</p>
                                 <p>{posts.description}</p>
                             </div>
                         </div>

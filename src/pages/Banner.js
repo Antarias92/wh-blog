@@ -13,7 +13,7 @@ const Banner = ({children}) => {
                    <div className="collapse navbar-collapse" id="navbarNav">
                        <ul className="navbar-nav mx-auto mb-lg-0 justify-content-center">
                         <li className="nav-item">
-                        <Link style={{color: "#0096FF"}} className="navbar-brand logo" id="banner" to="/">WELCOME TO THE WARHAMMER DATABASE</Link>
+                        <Link style={{color: "#0096FF"}} className="navbar-brand logo" id="banner" to="/wh-blog">WELCOME TO THE WARHAMMER DATABASE</Link>
                         </li>
                        </ul>
                    </div>

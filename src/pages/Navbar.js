@@ -16,7 +16,7 @@ const Navbar = ({children}) => {
                    <div className="collapse navbar-collapse" id="navbarNav">
                        <ul className="navbar-nav mx-auto mb-lg-0 justify-content-center">
                            <li class="nav-item menu-item">
-                               <Link style={{color: "#0096FF"}} className="nav-link" to="/wh-blog"> Home </Link>
+                               <Link style={{color: "#0096FF"}} className="nav-link" to="/home"> Home </Link>
                            </li>
                            <li className="nav-item menu-item">
                                <Link style={{color: "#0096FF"}} className="nav-link" to="/additem"> Add Item </Link>

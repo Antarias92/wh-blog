@@ -24,7 +24,7 @@ const Login = () =>{
         e.preventDefault()
         try{
             await login(inputs)
-            navigate("/wh-blog")
+            navigate("/home")
         }catch(err){
            setError(err.response.data)
         }

@@ -4,7 +4,6 @@ import Register from './pages/Register';
 import Login from './pages/Login';
 import Home from './pages/Home';
 import Navbar from './pages/Navbar';
-import Category1 from './pages/Category1';
 import AddItem from './pages/AddItem';
 import Banner from './pages/Banner';
 import Lore from './Categories/Lore';
@@ -19,9 +18,9 @@ function App() {
     <div className='App'>
       <BrowserRouter>
         <Routes>
-          <Route path="/wh-blog" element={<Navbar><Home/></Navbar>}></Route>
+          <Route path="/home" element={<Navbar><Home/></Navbar>}></Route>
           <Route path="/register" element={<Banner><Register/></Banner>}></Route>
-          <Route path="/login" element={<Banner><Login/></Banner>}></Route>
+          <Route path="/wh-blog" element={<Banner><Login/></Banner>}></Route>
           <Route path="/lore" element={<Navbar><Lore/></Navbar>}></Route>
           <Route path="/additem" element={<Navbar><AddItem/></Navbar>}></Route>
         </Routes>

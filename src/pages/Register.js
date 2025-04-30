@@ -20,7 +20,7 @@ const Register = () => {
         e.preventDefault()
         try{
             await axios.post("/auth/register", inputs)
-            navigate("/login")
+            navigate("/wh-blog")
         }catch(err){
            setError(err.response.data)
         }
@@ -41,7 +41,7 @@ const Register = () => {
                 <button className='btn btn-primary' onClick={handleSubmit}>Register</button>
 
                 {err && <p className="errorMessage">{err}</p>}
-                <span className="inputFooter">Have an account? <Link to="/login">Login</Link></span>
+                <span className="inputFooter">Have an account? <Link to="/wh-blog">Login</Link></span>
             </form>
         </div>
     )
