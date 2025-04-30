@@ -52,6 +52,18 @@ body{
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
 }
 
+/*Post Section*/
+
+.posts{
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+.content{
+  flex: 3;
+}
+
 /*Add items section*/
 .addItem{
   margin-top: 20px;
@@ -64,8 +76,6 @@ body{
   display: flex;
   flex-direction: column;
   gap: 20px;
-
-  
 }
 
 .editorContainer{
@@ -101,6 +111,5 @@ body{
   align-items: center;
   gap: 2px;
   color: #0096FF;
-
   cursor: pointer;
 }

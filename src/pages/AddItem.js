@@ -34,7 +34,7 @@ const AddItem = () => {
                     </div>
                     <div className='cat'>
                         <input type='radio' name="cat" value="misc" id="misc"/>
-                        <label htmlFor='Misc'>Misc</label>
+                        <label htmlFor='misc'>Misc</label>
                     </div>
                 </div>
             </div>

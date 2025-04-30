@@ -1,22 +1,25 @@
-import axios from "axios";
 import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
+import axios from "axios";
 
-const Home = ({children}) => {
+const Lore = ({children}) => {
 
-    /*const [posts, setPosts] = useState([])
+    const [posts, setPosts] = useState([])
+
+    const cat = useLocation().search;
+   
 
     useEffect(() =>{
         const fetchData = async ()=>{
             try{
-                const res = await axios.get("/posts")
+                const res = await axios.get(`/posts${cat}`);
                 setPosts(res.data)
             }catch(err){
                 console.log(err);
             }
         };
         fetchData();
-    }, []);*/
+    }, [cat]);
 
     return (
         <div className="row">
@@ -39,16 +42,22 @@ const Home = ({children}) => {
                 </nav>
             </div>
             <div className="col-9">
-                <div className="container">
-                    The Web Content in detail.
-                </div>
-                <div className ="container">
-                    <p>Welcome to the Warhammer Database. </p>
-                </div>
+               <div className="posts">
+                    {posts.map((posts) =>(
+                        <div className="post" key={posts.id}>
+                            <div className="content">
+                                
+                                    <h2>{posts.title}</h2>
+                                
+                                <p>{posts.description}</p>
+                            </div>
+                        </div>
+                    ))}
+               </div>
             </div>
         </div>
 
     )    
 }
 
-export default Home;
+export default Lore;

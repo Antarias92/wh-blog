@@ -14,14 +14,16 @@ const Navbar = ({children}) => {
                    <span className="navbar-toggler-icon bg-white"></span>
                    </button>
                    <div className="collapse navbar-collapse" id="navbarNav">
-                       <ul className="navbar-nav mx-auto mb-lg-0">
+                       <ul className="navbar-nav mx-auto mb-lg-0 justify-content-center">
                            <li class="nav-item menu-item">
-                               <Link style={{color: "#0096FF"}} className="nav-link" to="/"> Home </Link>
+                               <Link style={{color: "#0096FF"}} className="nav-link" to="/wh-blog"> Home </Link>
                            </li>
                            <li className="nav-item menu-item">
-                               <Link style={{color: "#0096FF"}} className="nav-link" to="/add"> Add Item </Link>
+                               <Link style={{color: "#0096FF"}} className="nav-link" to="/additem"> Add Item </Link>
                            </li>
-                           <li className="nav-item menu-item">
+                       </ul>
+                       <ul className="navbar-nav mx-auto mb-lg-0 justify-content-right">
+                            <li className="nav-item menu-item">
                                <span style={{color: "#0096FF"}} className="nav-link">{currentUser?.username}</span>
                            </li>
                            <li className="nav-item menu-item">
