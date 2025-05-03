@@ -4,7 +4,9 @@
 }
 
 body{
-  background: #f7f9fb !important;
+  /*background: #f7f9fb !important;*/
+  background-image: url("https://cdnb.artstation.com/p/assets/images/images/002/794/115/original/martin-johnson-warhammer40k.gif?1465802475");
+  background-size: cover;
 }
 
 .auth {
@@ -54,6 +56,15 @@ body{
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
 }
 
+.email_form{
+  padding-top: 20px;
+  margin-top: 10px;
+  border-radius: 10px;
+  font-family: 'Permanent Marker', sans-serif;
+  color: black;
+  background-color: lightskyblue;
+}
+
 /*Post Section*/
 
 .posts{
@@ -67,7 +78,7 @@ body{
 }
 
 .mainBox{
-  background-color: lightblue;
+  background-color: lightskyblue; 
 }
 
 .postContent{
@@ -75,7 +86,7 @@ body{
   align-items: center;
   padding: 20px;
   margin-top: 10px;
-  background-color: lightblue;
+  background-color: lightskyblue;
   border-radius: 10px;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
 }
@@ -104,8 +115,10 @@ body{
 /*Add items section*/
 .addItem{
   margin-top: 20px;
+  padding: 20px;
   display: flex;
   gap: 20px;
+  background-color: #f7f9fb !important;
 }
 
 .content{
@@ -137,10 +150,11 @@ body{
 .item{
   border: 1px solid lightgrey;
   padding: 10px;
-  flex: 1;
+  
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  
 }
 
 .cat{

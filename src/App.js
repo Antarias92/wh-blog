@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import Navbar from './pages/Navbar';
 import AddItem from './pages/AddItem';
 import Banner from './pages/Banner';
+import Contact from './pages/Contact';
 import Lore from './Categories/Lore';
 import FortyKFAQ from './Categories/FortyKFAQ'; //ignore this error. There is no error and everything functions correctly.
 import AosFAQ from './Categories/AosFAQ';
@@ -24,6 +25,7 @@ function App() {
           <Route path="/home" element={<Navbar><Home/></Navbar>}></Route>
           <Route path="/register" element={<Banner><Register/></Banner>}></Route>
           <Route path="/wh-blog" element={<Banner><Login/></Banner>}></Route>
+          <Route path="/contact" element={<Navbar><Contact/></Navbar>}></Route>
           <Route path="/fortyKFAQ" element={<Navbar><FortyKFAQ/></Navbar>}></Route>
           <Route path="/aosfaq" element={<Navbar><AosFAQ/></Navbar>}></Route>
           <Route path="/lore" element={<Navbar><Lore/></Navbar>}></Route>

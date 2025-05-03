@@ -20,8 +20,7 @@ const AddItem = () => {
                 </div>
             </div>
             <div className='menu'>
-                <div className='item'>item1</div>
-                <div className='item'>item2</div>
+               
                 <div>
                     <button className='btn btn-primary' onClick={handleClick}>Post</button>
                 </div>
