@@ -20,6 +20,7 @@ const Register = () => {
         e.preventDefault()
         try{
             await axios.post("/auth/register", inputs)
+            alert("Registration Complete");
             navigate("/wh-blog")
         }catch(err){
            setError(err.response.data)
@@ -29,7 +30,7 @@ const Register = () => {
 
     return (
         <div className='auth'>
-            <h1>Register</h1>
+            <h1 style={{color: "#ffffff"}}>Register</h1>
             <form className='loginForm'>
                 <input className='inputBox' type='text' placeholder='username' required name="username" onChange={handleChange}/>
                 <input className='inputBox' type='email' placeholder='email' required name="email" onChange={handleChange}/>

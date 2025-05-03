@@ -16,7 +16,7 @@ const AddItem = () => {
             <div className="content">
                 <input type='text' placeholder='Title' onChange={e=>setTitle(e.target.value)}/>
                 <div className='editorContainer'>
-                    <ReactQuill className='editor' theme="snow" value={value} onChange={setValue} />
+                    <ReactQuill className='editor' theme="snow" value={value} placeholder='Attention: This page is not currently functional and beyond the scope of project. It will be completed in future updates.' onChange={setValue} />
                 </div>
             </div>
             <div className='menu'>

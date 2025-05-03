@@ -1,7 +1,6 @@
 *{
   padding: 0px;
   margin: 0px;
-  
 }
 
 body{
@@ -14,6 +13,8 @@ body{
   align-items: center;
   justify-content: center;
   height: 100vh;
+  background-image: url("https://w0.peakpx.com/wallpaper/769/549/HD-wallpaper-warhammer-battle-warhammer-40k-video-game-space-marine.jpg");
+  background-size: cover;
 }
 
 .loginForm{
@@ -23,7 +24,7 @@ body{
   margin-top: 10px;
   width: 300px;
   gap: 20px;
-  background-color: lightblue;
+  background-color: #f7f9fb;
   border-radius: 10px;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
 }
@@ -64,6 +65,35 @@ body{
 .content{
   flex: 3;
 }
+
+.mainBox{
+  background-color: lightblue;
+}
+
+.postContent{
+  display: inline-block;
+  align-items: center;
+  padding: 20px;
+  margin-top: 10px;
+  background-color: lightblue;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.category{
+  font-weight: bold;
+}
+
+.test{
+  height: 250px;
+  width: 100%;
+  justify-content: top;
+}
+
+#welcome{
+  text-align: center;
+}
+
 
 /*Add items section*/
 .addItem{

@@ -33,7 +33,7 @@ const Login = () =>{
 
     return (
         <div className='auth'>
-            <h1>Login</h1>
+            <h1 style={{color: "#ffffff"}}>Login</h1>
             <form className='loginForm'>
                 <input className='inputBox' type='text' placeholder='username' required name='username' onChange={handleChange}/>
                 <input className='inputBox' type='password' placeholder='password' required name='password' onChange={handleChange}/>

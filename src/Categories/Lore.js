@@ -26,7 +26,7 @@ const Lore = ({children}) => {
                 <nav className ="navbar bg-dark">
                     <ul className ="nav navbar-nav mx-auto">
                         <li className ="nav-item">
-                            <Link style={{color: "#ebb866"}} className="nav-link navbar-brand h1" to="/40000faq"> Warhammer 40000 FAQ </Link>
+                            <Link style={{color: "#ebb866"}} className="nav-link navbar-brand h1" to="/fortyKFAQ"> Warhammer 40000 FAQ </Link>
                         </li>
                         <li className ="nav-item">
                             <Link style={{color: "#ebb866"}} className="nav-link navbar-brand h1" to="/aosfaq"> Age of Sigmar FAQ </Link>

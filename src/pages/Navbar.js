@@ -27,8 +27,8 @@ const Navbar = ({children}) => {
                                <span style={{color: "#0096FF"}} className="nav-link">{currentUser?.username}</span>
                            </li>
                            <li className="nav-item menu-item">
-                               <Link style={{color: "#0096FF"}} className="nav-link" to="/login" onClick={logout}> Logout </Link>
-                               {/*{currentUser ? <span style={{color: "#ebb866"}} className="nav-link">Logout</span> : <Link style={{color: "#ebb866"}} className="nav-link" to="/login">Login</Link>}*/}
+                               {/*<Link style={{color: "#0096FF"}} className="nav-link" to="/wh-blog" onClick={logout}> Logout </Link>*/}
+                               {currentUser ? <Link style={{color: "#0096FF"}} className="nav-link" to="/wh-blog">Logout</Link> : <Link style={{color: "#0096FF"}} className="nav-link" to="/wh-blog">Login</Link>}
                            </li>
                        </ul>
                    </div>
