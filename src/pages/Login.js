@@ -38,7 +38,7 @@ const Login = () =>{
                 <input className='inputBox' type='text' placeholder='username' required name='username' onChange={handleChange}/>
                 <input className='inputBox' type='password' placeholder='password' required name='password' onChange={handleChange}/>
                 <button className='btn btn-primary' onClick={handleSubmit}>Login</button>
-                {err&&<p>{err}</p>}
+                {err&&<p className='errorMessage'>{err}</p>}
                 <span className='inputFooter'>Create and account: <Link to="/register">Here</Link></span>
             </form>
         </div>
