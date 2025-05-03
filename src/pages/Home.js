@@ -47,9 +47,9 @@ const Home = ({children}) => {
                     {posts.map((posts) =>(
                         <div className="post" key={posts.id}>
                             <div className="content">
-                                <h2>{posts.title}</h2>
-                                <p>{posts.description}</p>
-                                <p>{`Category: ${posts.cat}`}</p>
+                                <h4>{posts.title}</h4>
+                                <p className="answer">{posts.description}</p>
+                                <p className="category">{`Category: ${posts.cat}`}</p>
                             </div>
                         </div>
                     ))}

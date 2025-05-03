@@ -8,6 +8,7 @@ import AddItem from './pages/AddItem';
 import Banner from './pages/Banner';
 import Lore from './Categories/Lore';
 import FortyKFAQ from './Categories/FortyKFAQ'; //ignore this error. There is no error and everything functions correctly.
+import AosFAQ from './Categories/AosFAQ';
 import Misc from './Categories/Misc';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -24,6 +25,7 @@ function App() {
           <Route path="/register" element={<Banner><Register/></Banner>}></Route>
           <Route path="/wh-blog" element={<Banner><Login/></Banner>}></Route>
           <Route path="/fortyKFAQ" element={<Navbar><FortyKFAQ/></Navbar>}></Route>
+          <Route path="/aosfaq" element={<Navbar><AosFAQ/></Navbar>}></Route>
           <Route path="/lore" element={<Navbar><Lore/></Navbar>}></Route>
           <Route path="/misc" element={<Navbar><Misc/></Navbar>}></Route>
           <Route path="/additem" element={<Navbar><AddItem/></Navbar>}></Route>
