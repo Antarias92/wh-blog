@@ -4,7 +4,7 @@
 }
 
 body{
-  /*background: #f7f9fb !important;*/
+ 
   background-image: url("https://cdnb.artstation.com/p/assets/images/images/002/794/115/original/martin-johnson-warhammer40k.gif?1465802475");
   background-size: cover;
 }
@@ -78,7 +78,13 @@ body{
 }
 
 .mainBox{
-  background-color: lightskyblue; 
+  display: inline-block;
+  align-items: center;
+  padding: 20px;
+  margin-top: 10px;
+  background-color: lightskyblue;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
 }
 
 .postContent{
@@ -109,6 +115,7 @@ body{
 
 #welcome{
   text-align: center;
+  margin-top: 20px;
 }
 
 

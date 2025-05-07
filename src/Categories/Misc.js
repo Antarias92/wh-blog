@@ -27,16 +27,19 @@ const Misc = () => {
                         <h4 className="question">Could I use any of my Blades of Khorne character models as a Slaughterbound proxy?</h4>
                         <p className="answer">No, unfortunately the Slaughterbound is on a 50mm base and Blades of Khorne characters are on 40mm bases.</p>
                         <p className="category">Category: Misc</p>
+                        <p className="category">Posted By: Admin</p>
                    </div>
                    <div className="postContent">
                         <h4 className="question">What are some good proxies for Poxwalkers?</h4>
                         <p className="answer">Deathwalker Zombies are your best bet as they are the same base size and fit the zombie aesthetic. You also get 20 models in a box instead of 10.</p>
                         <p className="category">Category: Misc</p>
+                        <p className="category">Posted By: Admin</p>
                    </div>
                    <div className="postContent">
                         <h4 className="question">How long does it take for Games Workshop to release a product after pre-orders go live? </h4>
                         <p className="answer">Games Workshop typically releases its products two weeks after pre-orders go live.</p>
                         <p className="category">Category: Misc</p>
+                        <p className="category">Posted By: Admin</p>
                    </div>
                 </div>
             </div>

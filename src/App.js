@@ -1,5 +1,5 @@
 import './App.css';
-import {BrowserRouter as Router, Routes, Route, BrowserRouter} from "react-router-dom";
+import {Routes, Route, BrowserRouter} from "react-router-dom";
 import Register from './pages/Register';
 import Login from './pages/Login';
 import Home from './pages/Home';
@@ -8,7 +8,7 @@ import AddItem from './pages/AddItem';
 import Banner from './pages/Banner';
 import Contact from './pages/Contact';
 import Lore from './Categories/Lore';
-import FortyKFAQ from './Categories/FortyKFAQ'; //ignore this error. There is no error and everything functions correctly.
+import FortyKFAQ from './Categories/FortyKFAQ'; 
 import AosFAQ from './Categories/AosFAQ';
 import Misc from './Categories/Misc';
 
